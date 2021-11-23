@@ -38,7 +38,7 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(n)
+// ANSWER: O(1) because it's still telling it to run only 4 times based on the conditions given?
 
 // Q: Given an array of numbers, what is the space complexity of this function?
 // ANSWER: O(n)
@@ -88,10 +88,10 @@ function printC(num, arr) {
   }
 }
 // Q: What is the time complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n²)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n²)
 
 
 // 6) -------------------------------------------------------
@@ -147,7 +147,7 @@ function removeNum() {
     numbers.splice(3,1)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 10) -------------------------------------------------------
@@ -163,7 +163,7 @@ function pushNum() {
     numbers.push(25)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 // 12) -------------------------------------------------------
@@ -217,7 +217,7 @@ function getNumbersSquared(numbers) {
 }
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
@@ -294,13 +294,13 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER: NO?
+// ANSWER: Yes
 
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters:
-// ANSWER - countLettersRoundTwo:
+// ANSWER - countLetters: O(n)
+// ANSWER - countLettersRoundTwo: O(n)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: 
+// ANSWER: each function is dependent upon the length of the string input
